@@ -199,7 +199,7 @@ int main() {
         // 构造命令
         char command_str[500];
         snprintf(command_str, sizeof(command_str),
-                 "echo -e '6\\nn\\n%s\\n' | ~/spec_conv",
+                 "echo -e '6\\nn\\n%s\\n' | your_path_to/spec_conv",    ///////your path
                  input_file);
         
         // 执行转换命令
